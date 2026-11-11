@@ -1,0 +1,19 @@
+{
+  "name": "casting-bounce",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.js",
+    "build": "vite build",
+    "google": "node scripts/google-setup.js",
+    "start": "vite build && node server.js",
+    "publicar": "node scripts/publicar-vercel.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

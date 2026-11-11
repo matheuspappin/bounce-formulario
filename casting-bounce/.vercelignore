@@ -1,0 +1,11 @@
+.env
+.env.local
+teste-local
+node_modules
+*.bat
+
+_backup-antes-das-listas
+
+_backup-antes-das-propostas
+_backup-antes-dos-contratos
+_backup-antes-erros-upload

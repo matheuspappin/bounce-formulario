@@ -1,0 +1,29 @@
+/* ---------- página do contratante ---------- */
+.lista-publica .topbar .logo { cursor: default; }
+.nav-tag { font-size: 12px; font-weight: 800; letter-spacing: .14em; color: var(--muted); }
+.lista-head h2 { margin-bottom: 14px; overflow-wrap: anywhere; }
+.lista-meta { display: flex; flex-wrap: wrap; gap: 6px 10px; margin: 0 0 6px; font-weight: 700; font-size: 15px; letter-spacing: .04em; text-transform: uppercase; }
+.lista-meta span { color: var(--muted); }
+.lista-head > .muted { margin: 0 0 32px; font-size: 14px; }
+.lista-erro { min-height: 50vh; display: flex; flex-direction: column; justify-content: center; }
+.lista-erro h2 { margin-bottom: 16px; }
+.nota-bounce { margin-top: 22px; padding: 16px 18px; background: #fff; border-left: 3px solid var(--text); }
+.nota-bounce p:last-child { margin: 8px 0 0; font-size: 15px; }
+button.vid { border: 0; cursor: pointer; font: inherit; padding: 0; width: 100%; }
+.lista-videos { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+.vid-player { aspect-ratio: 9 / 16; background: #151515; }
+.vid-player iframe, .vid-player video { width: 100%; height: 100%; border: 0; display: block; }
+.lista-nav { display: flex; justify-content: space-between; gap: 12px; margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); }
+@media (max-width: 600px) {
+  .lista-publica .cards-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .lista-publica .pcard-body { padding: 10px 10px 12px; }
+  .lista-publica .pcard-body strong { font-size: 19px; }
+  .lista-publica .pcard-body .muted { font-size: 12px; }
+  .lista-publica .tags em { font-size: 10px; padding: 2px 6px; }
+}
+
+/* foto/vídeo com botão de baixar (o arquivo sai com o nome do perfil: "Ana S - foto 1.jpg") */
+.gallery .midia { margin: 0; display: flex; flex-direction: column; gap: 4px; }
+.gallery .midia > a:first-child { display: block; }
+.gallery .baixar { align-self: flex-start; font-size: 11px; font-weight: 800; letter-spacing: .1em; text-decoration: none; padding: 4px 0; color: var(--text); opacity: .75; }
+.gallery .baixar:hover { opacity: 1; text-decoration: underline; }
